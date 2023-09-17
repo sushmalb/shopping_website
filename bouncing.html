@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>animation</title>
+    <style>
+      body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;
+      }
+      .ball {
+        width: 100px;
+        height: 100px;
+        background-color: aquamarine;
+        border-radius: 50%;
+
+        animation: bounce 2s infinite;
+      }
+
+      @keyframes bounce {
+        0%,50%,
+        100% {
+          transform: translateY(0);
+        }
+        40% {
+          transform: translateY(-100px);
+        }
+
+        60%{
+          transform: translateY(-50px);
+        }
+
+
+        }
+      
+    </style>
+  </head>
+  <body>
+    
+
+    </div>
+    <div class="ball"></div>
+  </body>
+</html>

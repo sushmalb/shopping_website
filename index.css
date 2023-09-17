@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  background-color: #f1f0e8;
+}
+
+form {
+  margin: auto 0;
+  height: 650px;
+  width: 500px;
+  background-color: #dac0a3;
+  border: 2px solid #102c57;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+label {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: large;
+  color: 96b6c5;
+  background-color: transparent;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.input {
+  width: 350px;
+  height: 35px;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#pwd {
+  margin-bottom: 10px;
+}
+
+#pic {
+  margin-bottom: 10px;
+}
