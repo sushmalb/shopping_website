@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1 rem =10px ; 10px/16px = 62.5%*/
+}
+body {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  font-weight: 400;
+}
+
+.container {
+  background-color: #ccc;
+  height: 100%;
+  width: 100%;
+  color: white;
+  width: 100%;
+}
+
+.welcome {
+  height: 8%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.welcome-text {
+  /* background-color: red; */
+  width: 30%;
+}
+.welcome-tags {
+  display: flex;
+  width: 70%;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.welcome-tags-li {
+  list-style-type: none;
+}
+
+.input {
+  height: 10%;
+  background-color: yellow;
+}
+.nav {
+  height: 10%;
+  background-color: white;
+}
+.banner {
+  height: 55%;
+  background-color: bisque;
+}
+.sec_banner {
+  height: 40%;
+  background-color: white;
+}
+
+.social {
+  width: 20%;
+}
+
+.fb,
+.linkedin,
+.twitter {
+  height: 2rem;
+  width: 2rem;
+  color: white;
+}
