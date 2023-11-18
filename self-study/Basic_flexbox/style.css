@@ -8,13 +8,28 @@
   background-color: #ccc;
   padding: 10px;
   display: flex;
-  flex-direction: row-reverse;
+  /* flex-direction: column; */
+  align-items: baseline;
+
+  justify-content: flex-end;
 }
 
 .item {
   background-color: aliceblue;
-  padding: 40px;
+  padding: 20px;
   margin: 30px;
   color: teal;
   font-size: 40px;
+  /* flex-grow: 1; */
+  flex-shrink: 0;
+}
+#b1 {
+  height: 200px;
+  font-size: 60px;
+  order: -2;
+}
+#b2 {
+  align-self: stretch;
+  order: -1;
+  flex-grow: 3;
 }
