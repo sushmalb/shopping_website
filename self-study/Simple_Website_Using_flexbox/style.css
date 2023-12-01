@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 1.5rem;
+  background-image: linear-gradient(to bottom, #f7f8f8, #9fbb73);
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  height: 7rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ec8f5e;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  font-size: 3rem;
+  margin-right: 10px;
+}
+
+.logo-header {
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+
+.ul-sections {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ul-items {
+  cursor: pointer;
+  padding: 0.8rem 1.2rem;
+  font-size: 2rem;
+}
+
+.ul-items:hover {
+  color: #000;
+  transition: color 0.3s ease;
+  text-decoration: underline;
+}
+
+.order-now {
+  display: flex;
+  align-items: center;
+}
+
+.fa-bag-shopping {
+  margin-right: 2rem;
+}
+
+.order-now-btn,
+.wa-btn {
+  font-size: 1.5 rem;
+  border: none;
+  border-radius: 0.5rem;
+
+  cursor: pointer;
+  padding: 0.8rem 0.8rem;
+}
+
+.order-now-btn {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  background-color: #fff;
+}
+
+.order-now-btn:hover {
+  background-color: #f3b664;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.wa-btn {
+  background-color: #25d366; /* WhatsApp Green Color */
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.wa-btn i {
+  margin-left: 1rem;
+}
+
+.wa-btn:hover {
+  background-color: #228b22;
+}
+/*  HEADER STYLES END HERE */
+
+.banner {
+  height: 35rem;
+  display: flex;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+.banner-slogan,
+.banner-img {
+  width: 50%;
+  height: 100%;
+  /* position: relative; */
+}
+
+.banner-img img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.banner-slogan {
+  padding: 3rem;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.banner-writeup {
+  font-size: 4.5rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.banner-text {
+  font-size: 2rem;
+  line-height: 1.6;
+  color: #353935;
+}
+
+.banner-img {
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
+}
+/*  BANNER STYLE ENDS HERE   */
+
+/* .how-it-works {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+*/
+.how-it-works .title,
+.how-it-works-para {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.how-it-works-para {
+  width: 50%;
+}
+
+/* /////////////////////////////////////// */
+.how-it-works-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.how-it-works-each {
+  flex-basis: calc(33.33% - 20px); /* Adjust width with space between items */
+  padding: 20px;
+
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.how-it-works-heading {
+  margin-bottom: 10px; /* Adjust spacing */
+}
+
+.how-it-works-text {
+  line-height: 1.4; /* Adjust line height */
+}
+
+.how-it-works-each i {
+  font-size: 3rem;
+}
